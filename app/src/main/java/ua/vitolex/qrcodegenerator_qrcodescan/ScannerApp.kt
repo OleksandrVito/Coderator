@@ -1,8 +1,10 @@
 package ua.vitolex.qrcodegenerator_qrcodescan
 
+import android.app.Activity
 import android.app.Application
 import android.content.Intent
 import android.net.Uri
+import android.provider.Settings
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
@@ -20,5 +22,6 @@ class ScannerApp:Application() {
                 Intent.FLAG_GRANT_READ_URI_PERMISSION
             )
         }
+
     }
 }

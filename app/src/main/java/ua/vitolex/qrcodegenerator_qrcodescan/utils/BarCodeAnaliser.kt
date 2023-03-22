@@ -23,6 +23,7 @@ class BarCodeAnalyser(
                 val options = BarcodeScannerOptions.Builder()
                     .setBarcodeFormats(Barcode.FORMAT_ALL_FORMATS)
                     .build()
+
                 val barcodeScanner = BarcodeScanning.getClient(options)
                 val imageToProcess = InputImage.fromMediaImage(imageToAnalyze, image.imageInfo.rotationDegrees)
 

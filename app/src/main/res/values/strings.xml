@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">QR Code Generator - QR Code Scan</string>
+<!--    <string name="banner_ad_unit_id_test" translatable="false">ca-app-pub-3940256099942544/6300978111</string>&ndash;&gt;-->
+    <string name="banner_ad_unit_id_main" translatable="false">ca-app-pub-1869740172940843/8121545280</string>-->
+    <string name="banner_ad_unit_id_scan" translatable="false">ca-app-pub-1869740172940843/6993818959</string>-->
+    <string name="banner_ad_unit_id_input" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="banner_ad_unit_id_code" translatable="false">ca-app-pub-1869740172940843/4032613696</string>-->
 </resources>

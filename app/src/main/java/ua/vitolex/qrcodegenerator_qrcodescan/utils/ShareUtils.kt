@@ -4,12 +4,13 @@ import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
 import android.net.Uri
-import android.util.Log
+import androidx.core.content.ContextCompat.startActivity
 import androidx.core.content.FileProvider
 import ua.vitolex.qrcodegenerator_qrcodescan.BuildConfig
 import java.io.File
 import java.io.FileOutputStream
 import java.io.OutputStream
+
 
 class ShareUtils {
 
@@ -40,6 +41,16 @@ class ShareUtils {
             chooserIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
             try {
                 context.startActivity(chooserIntent)
+            } catch (_: Exception) {
+            }
+        }
+
+        fun shareTextOrLink(context: Context, text: String){
+            val shareIntent = Intent(Intent.ACTION_SEND)
+            shareIntent.type = "text/plain"
+            shareIntent.putExtra(Intent.EXTRA_TEXT, text)
+            try {
+                context.startActivity(shareIntent)
             } catch (_: Exception) {
             }
         }
