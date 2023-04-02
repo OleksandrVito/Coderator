@@ -594,7 +594,7 @@ fun ScanScreen(navController: NavHostController, viewModel: ScannerViewModel = h
 
                 }
             }
-            BannerAdView(id = stringResource(id = R.string.banner_ad_unit_id_scan))
+//            BannerAdView(id = stringResource(id = R.string.banner_ad_unit_id_scan))
         }
     }
 }

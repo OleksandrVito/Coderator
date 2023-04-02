@@ -208,7 +208,7 @@ fun CodeScreen(
                 }
             }
             Box(modifier = Modifier.fillMaxWidth().height(60.dp).background(Black333),){
-                BannerAdView(id = stringResource(id = R.string.banner_ad_unit_id_code))
+//                BannerAdView(id = stringResource(id = R.string.banner_ad_unit_id_code))
             }
         }
 
