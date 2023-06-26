@@ -266,7 +266,7 @@ fun MainScreen(navController: NavHostController) {
                 }
             }
             Box(modifier = Modifier.fillMaxWidth().height(60.dp).background(Black333),){
-//                BannerAdView(id = stringResource(id = R.string.banner_ad_unit_id_main))
+                BannerAdView(id = stringResource(id = R.string.banner_ad_unit_id_main))
             }
         }
     }

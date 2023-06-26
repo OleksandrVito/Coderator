@@ -298,7 +298,7 @@ fun InputScreen(
                     }
                 }
             }
-//            BannerAdView(id = stringResource(id = R.string.banner_ad_unit_id_input))
+            BannerAdView(id = stringResource(id = R.string.banner_ad_unit_id_input))
         }
 
     }
